@@ -1,0 +1,417 @@
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    /****** General ******/
+    
+
+    body{
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+
+    .main-container{
+        max-width: 1024px;
+    }
+
+
+    /****** Header ******/
+
+    header{
+        width: 98%;
+    }
+
+    .header-img{
+        padding: 30px 50px;
+    }
+
+
+    /****** Recherche/filtres/infos ******/
+
+
+    .Search{
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .search-filters{
+        max-width: 924px;
+        width: 100%;
+    }
+
+    .filters{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bouton-responsive strong{
+        display: flex;
+        align-items: center;
+    }
+
+    #eco{
+        width: 23%;
+    }
+    
+    #family{
+        width: 23%;
+    }
+    
+    #romantique{
+        width: 23%;
+    }
+    
+    #pepites{
+        width: 23%;
+    }
+
+
+    /****** Hebergements And Populaires ******/
+
+
+    .hebergements-and-populaires {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+
+    /****** Hebergements ******/
+
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .hebergements-cards a{
+        width: 30%;
+    }
+
+    .hebergements-cards img{
+        width: 100%;
+    }
+
+
+    /****** Populaires ******/
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+
+
+    /****** Activités ******/
+
+
+    .Activity{
+        width: 100%;
+    }
+
+    .Activity-cards{
+        gap: 15px;
+    }
+
+    .Activity-cards .card{
+        height: 270px;
+        width: 23%;
+    }
+    .Activity-cards .card img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .Activity-cards .card-content{
+        padding: 10px 19px;
+        max-height: 70px;
+    }
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /****** General ******/
+
+    body{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+        /****** Header ******/
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .header-img{
+        padding: 0;
+    }
+    
+    header img{
+        padding: 30px;
+    }
+    
+    #Nav{
+        height: 19px;
+        width: 100%;
+        gap: 0;
+        padding: 0 0;
+    }
+    
+    .header-button{
+        width: 50%;
+        justify-content: center;
+        border-top: 0px solid #FFFFFF;
+        border-bottom: 2px solid #F2F2F2;
+        border-left: 0px solid #FFFFFF;
+        border-right: 0px solid #FFFFFF;
+    }
+    
+    .header-button a{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .header-button:hover{
+        border-top: #FFFFFF;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+    }
+
+
+
+
+    /****** Main ******/
+
+
+    .main-container {
+        box-sizing: border-box;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+
+
+    /****** Recherche/filtres/infos ******/
+
+
+    
+    .Search{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-filters{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 35px;
+        width: 100%;
+    }
+
+    .search-bar{
+        justify-content: space-between;
+    }
+
+    .bouton{
+        display: none;
+    }
+
+    .loupe{
+        width: 49px;
+        height: 49px;
+        border: 1px;
+        border-style: none;
+        border-radius: 15px 15px;
+        display: block;
+    }
+
+    .loupe .fa-solid{
+        color: #FFFFFF;
+    }
+
+
+    /****** Filtres ******/
+
+
+    .filters{
+        height: 100%;
+    }
+
+    .bouton-responsive button{
+        justify-content: flex-start;
+    }
+
+    .bouton-responsive #eco{
+        width: 47%;
+    }
+    .bouton-responsive #family{
+        width: 47%;
+    }
+    .bouton-responsive #romantique{
+        width: 47%;
+    }
+    .bouton-responsive #pepites{
+        width: 47%;
+    }
+
+    .bouton-responsive strong{
+        font-size: 14px;
+    }
+    
+    
+    /****** infos ******/
+
+   
+    .info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .info p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    /****** Hebergements And Populaires ***********/
+
+
+
+    .hebergements-and-populaires{
+        padding: 0;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .hebergements-and-populaires section{
+        height: 100%;
+        border-radius: 0;
+    }
+
+
+    /****** Hebergements ***********/
+
+
+    .hebergements{
+        gap: 15px;
+        margin-right: 0;
+        padding: 20px;
+        background-color: #FFFFFF !important;
+    }
+
+    .hebergements-cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: inherit;
+        gap: 15px;
+    }
+
+    .hebergements-cards img{
+        width: 100%;
+    }
+    
+    .hebergements-cards a{
+        width: 100%;
+    }
+
+
+    /****** Populaires ***********/
+
+
+    
+    .populaires{
+        padding: 30px 20px;
+    }
+
+    .populaires-cards{
+        display: inherit;
+    }
+   
+
+    /****** Activités ******/
+
+
+
+    .Activity{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .Activity-cards{
+        height: inherit;
+    }
+
+    .Activity-cards .card img{
+        height: 141px;
+        width: 100%;
+    }
+
+    .Activity-cards .card{
+        width: 100%;
+        height: 200px;
+    }
+
+
+    /****** Footer ******/
+    
+
+
+    footer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Footer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-cards {
+        width: 100%;
+    }
+}
+
+

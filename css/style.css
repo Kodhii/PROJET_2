@@ -102,7 +102,7 @@ header img{
     height: 35px;
 }
 
-.header-button{
+#Nav a{
     display: flex;
     align-items: flex-end;
     border-top: 2px solid #F2F2F2;
@@ -112,7 +112,8 @@ header img{
     background-color: #FFFFFF;
 }
 
-.header-button:hover{
+
+#Nav a:hover{
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
@@ -385,7 +386,7 @@ main{
 }
 
 .hebergements a{
-    width: 30%;
+    width: 29%;
 }
 
 
@@ -408,8 +409,8 @@ main{
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
     gap: 8px;
 }
 

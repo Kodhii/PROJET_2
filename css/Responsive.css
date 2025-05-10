@@ -21,7 +21,7 @@
     /****** Header ******/
 
     header{
-        width: 98%;
+        width: 100%;
     }
 
     .header-img{
@@ -35,7 +35,7 @@
     .Search{
         display: flex;
         justify-content: center;
-        padding: 0 20px;
+        padding: 0 2%;
     }
 
     .search-filters{
@@ -76,7 +76,6 @@
     .hebergements-and-populaires {
         flex-direction: column;
         padding: 15px;
-        gap: 50px;
     }
 
 
@@ -85,6 +84,7 @@
 
     .hebergements {
         width: 100%;
+        margin-bottom: 50px;
     }
 
     .hebergements-cards a{
@@ -194,8 +194,8 @@
         gap: 0;
         padding: 0 0;
     }
-    
-    .header-button{
+
+    #Nav a{
         width: 50%;
         justify-content: center;
         border-top: 0px solid #FFFFFF;
@@ -204,12 +204,7 @@
         border-right: 0px solid #FFFFFF;
     }
     
-    .header-button a{
-        font-size: 16px;
-        font-weight: 400;
-    }
-    
-    .header-button:hover{
+    #Nav a:hover{
         border-top: #FFFFFF;
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
@@ -285,16 +280,16 @@
         justify-content: flex-start;
     }
 
-    .bouton-responsive #eco{
+    #eco{
         width: 47%;
     }
-    .bouton-responsive #family{
+    #family{
         width: 47%;
     }
-    .bouton-responsive #romantique{
+    #romantique{
         width: 47%;
     }
-    .bouton-responsive #pepites{
+    #pepites{
         width: 47%;
     }
 
@@ -345,6 +340,7 @@
         margin-right: 0;
         padding: 20px;
         background-color: #FFFFFF !important;
+        margin-bottom: 0;
     }
 
     .hebergements-cards{
@@ -370,6 +366,7 @@
     
     .populaires{
         padding: 30px 20px;
+        margin-bottom: 35px;
     }
 
     .populaires-cards{
@@ -416,7 +413,7 @@
     }
 
     .footer-cards {
-        width: 100%;
+        width: auto;
     }
 }
 
